@@ -526,6 +526,14 @@ address {
   letter-spacing: 0.02em;
 }
 
+.footer-icon-container {
+  gap: 16px;
+}
+
 .footer-icon-link:hover {
+  background-color: #31D0AA;
+}
+
+.footer-icon-link:focus {
   background-color: #31D0AA;
 }
