@@ -238,7 +238,6 @@ address {
 }
 
 .benefits-title {
-  /* margin-bottom: 8px; */
 }
 
 .benefits-list {
@@ -375,7 +374,7 @@ address {
   height: 100%;
   background-color: #4D5AE5;
   border-radius: 50%;
-  fill: #F4F4FD;
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link:hover {
@@ -384,6 +383,10 @@ address {
 
 .icon-link:focus {
   background-color: #404BBF;
+}
+
+.icon {
+  fill: #F4F4FD;
 }
 
 .portfolio {
@@ -469,7 +472,15 @@ address {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-text {
+  margin-right: 120px;
+  display: inline-block;
+}
+
+.footer-social {
+  display: inline-block;
 }
 
 .footer-logo {
@@ -515,6 +526,6 @@ address {
   letter-spacing: 0.02em;
 }
 
-.footer-icon:hover {
+.footer-icon-link:hover {
   background-color: #31D0AA;
 }
